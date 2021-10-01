@@ -1,0 +1,70 @@
+.content {
+    padding: 30px 0;
+    background-color: #eff3f6;
+}
+
+.content table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 900px;
+    min-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 2px #ccc;
+}
+
+.content table tr {
+    text-align: left;
+    height: 60px;
+}
+
+.content table tr:nth-child(even) {
+    background-color: #f3f5f7;
+}
+
+.content table tr td:last-child,
+.content table tr th:last-child {
+    text-align: right;
+    padding-right: 18px;
+}
+
+.content table tr td:first-child,
+.content table tr th:first-child {
+    padding-left: 18px;
+}
+
+.content table tr {
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.btn {
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btnDelelte {
+    background-color: red;
+}
+
+.btnDelelte:hover {
+    background-color: rgb(206, 0, 0);
+}
+
+.btnEdit {
+    background-color: blue;
+}
+
+.btnEdit:hover {
+    background-color: rgb(1, 1, 187);
+}
